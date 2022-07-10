@@ -1,0 +1,25 @@
+{
+  "name": "politico",
+  "version": "1.0.0",
+  "description": "A package that generates garbled politician speak aka politico",
+  "main": "politico.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moose-tee/politico.git"
+  },
+  "keywords": [
+    "politician",
+    "nonsense",
+    "politico",
+    "random"
+  ],
+  "author": "moose-tee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moose-tee/politico/issues"
+  },
+  "homepage": "https://github.com/moose-tee/politico#readme"
+}
