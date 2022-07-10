@@ -1,2 +1,2 @@
 # politico
-Random political buzzword generator
+A node package that randomly generates garbled politican-buzzwords aka 'politico'
