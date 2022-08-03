@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "description": "A package that generates garbled politician speak aka politico",
   "main": "politico.js",
+  "type":"module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/moose-tee/politico.git"
+    "url": "git+https://github.com/mus-zia/politico.git"
   },
   "keywords": [
     "politician",
@@ -16,10 +17,10 @@
     "politico",
     "random"
   ],
-  "author": "moose-tee",
+  "author": "mus-zia",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/moose-tee/politico/issues"
+    "url": "https://github.com/mus-zia/politico/issues"
   },
-  "homepage": "https://github.com/moose-tee/politico#readme"
+  "homepage": "https://github.com/mus-zia/politico#readme"
 }
