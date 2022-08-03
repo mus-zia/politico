@@ -1,10 +1,10 @@
 # politico
 A node package that randomly generates garbled politican-buzzwords aka 'politico'
 
-# Installation
+## Installation
 npm i politico
 
-# Example
+## Example
 import log_words from "./politico.js";
 log_words();
 
