@@ -1,5 +1,5 @@
 # politico
-A node package that randomly generates garbled politican-buzzwords aka 'politico'
+An npm package that randomly generates garbled politican-buzzwords aka 'politico'
 
 ## Installation
 npm i politico
