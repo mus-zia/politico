@@ -1,20 +1,6 @@
-//Returns a random number between 1 and 76;
-
-function rand_num() {
-    var my_num = Math.floor((Math.random() * 76) + 1);
-    return my_num;
-};
-console.log(rand_num());
-
-//Outputs 100 random numbers;
-// i = 0
-// while (i < 100) {
-//     console.log(rand_num());
-//     i++;
-// };
 
 //List of words/our dictionary. Current length is 76
-var words_list = [
+const words_list = [
     "government",
     "public policy",
     "legislative power",
@@ -93,13 +79,26 @@ var words_list = [
     "misprision",
 ];
 
-//Length of words_list
-console.log(words_list.length);
+//Returns a random number between 1 and 76;
 
-//Outputs a random word from our dictionary
-var firstWord = rand_num();
-var secondWord = rand_num();
-var thirdWord = rand_num();
-console.log(words_list[firstWord]);
-console.log(words_list[secondWord]);
-console.log(words_list[thirdWord]);
+function rand_num() {
+    var my_num = Math.floor((Math.random() * words_list.length) + 1);
+    return my_num;
+};
+
+//Logs 3 random words using random numbers generated from rand_num
+function log_words(){
+    var firstWord = rand_num();
+    var secondWord = rand_num();
+    var thirdWord = rand_num();
+    console.log("Your words are: " + words_list[firstWord] + ", " + words_list[secondWord] + ", " + words_list[thirdWord]);
+};
+
+//export {words_list,rand_num,log_words};
+export default log_words;
+
+// log_words();
+
+// exports.printMsg = function() {
+//     console.log("Your words are " + words_list[firstWord] + ", " + words_list[secondWord] + ", " + words_list[thirdWord]);
+//   }
